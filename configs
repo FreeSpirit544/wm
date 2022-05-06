@@ -1,0 +1,19 @@
+vim 
+colorscheme hhpink
+syntax on
+set number
+
+xinit
+setxkbmap de &
+
+slstatus &
+
+feh --bg-scale /home/julian/suckless/Wallpaper.jpg &
+
+picom -f &
+
+while true; do
+    dwm >/dev/null 2>&1
+done
+
+exec dwm
